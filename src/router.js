@@ -15,6 +15,11 @@ const routes =  [
     path: "/add",
     name: "add-explorer",
     component: () => import("./components/AddExplorer")
+  },
+  {
+    path: "/missioncommander",
+    name: "missioncommander",
+    component: () => import("./components/MissionCommanderList")
   }
 ];
 const router = createRouter({
