@@ -22,7 +22,7 @@
           <br><label><strong>Username:</strong></label> {{ currentExplorer.username}}
           <br><label><strong>MainStack:</strong></label> {{ currentExplorer.mainStack}}
         </div>
-        <router-link :to="'/explorer/' + currentExplorer.id" class="btn btn-info"> Editar</router-link>
+        <router-link :to="'/missioncommander/' + currentExplorer.id" class="btn btn-info"> Editar</router-link>
       </div>
       <div v-else>
         <br />
