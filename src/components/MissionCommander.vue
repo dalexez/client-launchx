@@ -55,7 +55,7 @@ export default {
         });
     },
     deleteExplorer() {
-      MissionCommander.delete(this.currentExplorer.id)
+      MissionCommanderService.delete(this.currentExplorer.id)
       .then(response => {
         console.log(response.data);
         this.$router.push({ name: "explorers" });
