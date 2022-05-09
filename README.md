@@ -1,7 +1,27 @@
+## Instalacion de dependencias
+```
+npm install
+```
+
+### Ejecucion del Servidor Web
+```
+npm run serve
+```
+
+### Lints y correccion de estilo
+```
+npm run lint
+```
+
+## Repositorio de proyecto para el servidor de Backend
+
+https://github.com/dalexez/Cliente_Servidor
+
 # Practica 4 Cliente-Servidor
 ## Descripcion
 Para esta practica se nos pide implementar una nueva Feature Fullstack en una app legada, para poner en practica lo aprendido. Haremos uso de una practica anterior
 en la cual creamos una conexion a una base de datos y lo proporcionado en esta.
+
 Revisemos los requerimientos:
 
 ## Nuevo Feature Fullstack
