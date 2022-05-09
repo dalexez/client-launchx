@@ -58,8 +58,27 @@ Creamos el **Componente** para moestrar los Mission Commander asi como el **Serv
 
 Los **Servicios** en este caso, son los encargados de hacer las peticiones HTTP que se le haran al Backend, para esto usaremos  **AXIOS**
 
+Creamos el componente **MissionCommanderList** el cual desplegara un listado de todos los Mission Commander
+
+![image](https://user-images.githubusercontent.com/62618610/167331146-3b6491e4-6ec0-48e2-ba1b-94933f359b4a.png)
+
 ## Requerimiento 4
 Creamos el componente **addMissionCommander** 
 
 ![image](https://user-images.githubusercontent.com/62618610/167320185-c9c74f91-c4b1-4a88-8500-d99308d0244a.png)
+
+Para este componente como los demas usare de base lo creado ya en el proyecto y solo hare los cambios para que funcionen con la nueva tabla de la base de 
+datos.
+![image](https://user-images.githubusercontent.com/62618610/167330451-bd28ec21-ebe1-43a9-b412-175277897c67.png)
+
+## Requerimiento 5
+Creamos el componente **MissionCommander** para editar el **mainStack**
+
+![image](https://user-images.githubusercontent.com/62618610/167330704-417b8461-0bc3-42a3-9210-14fff4b48f9f.png)
+
+![image](https://user-images.githubusercontent.com/62618610/167330650-6ac3cdb4-d880-4cad-91f0-250614e3e0cc.png)
+
+## Requerimiento 6
+Dentro del componente **MissionCommander** creamos un metodo para tener la opcion de eliminar el registro, este llamara a el servicio **MissionCommander** donde se
+hara la peticion **DELETE** de la base de datos
 
